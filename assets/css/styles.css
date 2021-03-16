@@ -1,0 +1,12 @@
+@import "./bootstrap-grid.min.css";
+*{
+  box-sizing: border-box;
+}
+
+header{
+  height:70px ;
+}
+nav>ul> li{
+  display: inline-block;
+  margin-right:0;
+}
