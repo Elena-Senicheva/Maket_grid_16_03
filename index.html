@@ -21,8 +21,8 @@
   <body>
     <header class="container">
       <div class="row">
-        <div class="col-xs-12 col-md-6 col-lg-6 logo">WD</div>
-        <nav class="col-xs-12 col-md-6 col-lg-6 nav-menu">
+        <div class="col-4 logo">WD</div>
+        <nav class="col-8 nav-menu">
           <ul>
             <li>Главная</li>
             <li>Об авторе</li>
@@ -33,12 +33,12 @@
         </nav>
       </div>
     </header>
-    <main class="container main-section">
+    <main class="container-fluid main-section">
       <section class="row welcome-section">
-        <div class="col-xs-12 col-md-12 col-lg-6 welcome-image">
+        <div class="col-lg-6 welcome-image">
           <img src="./assets/images/Frame.png" alt="" />
         </div>
-        <article class="col-xs-12 col-md-12 col-lg-6 welcome-article">
+        <article class="col-lg-6 welcome-article">
           <h1 class="welcome-heading">Дизайн и вёрстка</h1>
           <p class="welcome-text">
             Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -49,7 +49,7 @@
         </article>
       </section>
       <section class="row about-section">
-        <article class="col-xs-12 col-md-12 col-lg-12 about-article">
+        <article class="col-12 about-article">
           <h2 class="about-heading">Обо мне</h2>
           <p class="about-text">
             Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -59,59 +59,84 @@
         </article>
       </section>
       <section class="row project-section">
-        <div class="col-sm-6 col-md-2 col-md-2 wrapper-project-image">
+        <div class="col-12 col-sm-4 col-md-2 wrapper-project-image">
           <img src="./assets/images/project.png" alt="project" />
-          <h3 class="project-heading">40+</h3>
-          <p class="project-text">проектов</p>
+          <div class="projects">
+            <span class="project-heading">40+</span>
+            <p class="project-text">проектов</p>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-2 col-md-2 wrapper-project-image">
+        <div class="col-12 col-sm-4 col-md-2 wrapper-project-image">
           <img src="./assets/images/project.png" alt="project" />
-          <h3 class="project-heading">40+</h3>
-          <p class="project-text">проектов</p>
+          <div class="projects">
+            <span class="project-heading">40+</span>
+            <p class="project-text">проектов</p>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-2 col-md-2 wrapper-project-image">
+        <div class="col-12 col-sm-4 col-md-2 wrapper-project-image">
           <img src="./assets/images/project.png" alt="project" />
-          <h3 class="project-heading">40+</h3>
-          <p class="project-text">проектов</p>
+          <div class="projects">
+            <span class="project-heading">40+</span>
+            <p class="project-text">проектов</p>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-2 col-md-2 wrapper-project-image">
+        <div class="col-12 col-sm-4 col-md-2 wrapper-project-image">
           <img src="./assets/images/project.png" alt="project" />
-          <h3 class="project-heading">40+</h3>
-          <p class="project-text">проектов</p>
+          <div class="projects">
+            <span class="project-heading">40+</span>
+            <p class="project-text">проектов</p>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-2 col-md-2 wrapper-project-image">
+        <div class="col-12 col-sm-4 col-md-2 wrapper-project-image">
           <img src="./assets/images/project.png" alt="project" />
-          <h3 class="project-heading">40+</h3>
-          <p class="project-text">проектов</p>
+          <div class="projects">
+            <span class="project-heading">40+</span>
+            <p class="project-text">проектов</p>
+          </div>
         </div>
-        <div class="col-sm-6 col-md-2 col-md-2 wrapper-project-image">
+        <div class="col-12 col-sm-4 col-md-2 wrapper-project-image">
           <img src="./assets/images/project.png" alt="project" />
-          <h3 class="project-heading">40+</h3>
-          <p class="project-text">проектов</p>
+          <div class="projects">
+            <span class="project-heading">40+</span>
+            <p class="project-text">проектов</p>
+          </div>
         </div>
       </section>
       <section class="row skills-section">
-        <article class="col-xs-12 col-md-6 col-lg-6 skills-article">
+        <article class="col-12 col-sm-6 skills-article">
           <h2 class="skills-heading">Мои Навыки</h2>
           <p class="skills-text">Adobe Photoshop</p>
-          <div>____________________________</div>
+          <div class="item-bar"></div>
           <p class="skills-text">Adobe Photoshop</p>
-          <div>______________________________</div>
+          <div class="item-bar"></div>
           <p class="skills-text">Adobe Photoshop</p>
-          <div>__________________________________</div>
+          <div class="item-bar"></div>
         </article>
-        <div class="col-xs-12 col-md-6 col-lg-6 skills-image">
-          <img src="./assets/images/Man.png" alt="" />
+        <div class="col-12 col-sm-6 outer-skills-image-wrapper">
+          <div class="inner-skills-image-wrapper">
+            <img
+              class="responsive-skills-image"
+              src="./assets/images/Man.png"
+              alt=""
+            />
+          </div>
         </div>
       </section>
       <section class="row work-section">
-        <article class="col-xs-12 col-md-12 col-lg-12 work-article">
+        <article class="col-12 work-article">
           <h2 class="work-heading">Как я работаю</h2>
           <p class="work-text">
             Lorem Ipsum - это текст-"рыба", часто используемый в печати и
             вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на
             латинице с начала XVI века.
           </p>
+          <div class="inner-wrapper-work-responsive-video"><iframe class="work-responsive-video"
+            src="https://www.youtube.com/embed/OjOM_BVxvAk"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe></div>
+          
         </article>
       </section>
       <!-- <section class="projects-screen row">
@@ -134,21 +159,21 @@
         </article>
       </section> -->
       <section class="row clients-section">
-        <div class="col-sm-6 col-md-3 col-md-3 wrapper-client-image">
+        <div class="col-6 col-md-3 wrapper-client-image">
           <img src="./assets/images/Microsoft.png" alt="client" />
         </div>
-        <div class="col-sm-6 col-md-3 col-md-3 wrapper-client-image">
+        <div class="col-6 col-md-3 col wrapper-client-image">
           <img src="./assets/images/Microsoft.png" alt="client" />
         </div>
-        <div class="col-sm-6 col-md-3 col-md-3 wrapper-client-image">
+        <div class="col-6 col-md-3 wrapper-client-image">
           <img src="./assets/images/Microsoft.png" alt="client" />
         </div>
-        <div class="col-sm-6 col-md-3 col-md-3 wrapper-client-image">
+        <div class="col-6 col-md-3 wrapper-client-image">
           <img src="./assets/images/Microsoft.png" alt="client" />
         </div>
       </section>
       <section class="row inquiry-section">
-        <article class="col-xs-12 col-md-12 col-lg-12 work-article">
+        <article class="col-12 work-article">
           <h2 class="inquiry-heading">Хотите веб-сайт?</h2>
           <p class="inquiry-text">
             Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -156,39 +181,40 @@
             латинице с начала XVI века.
           </p>
           <form>
-            <label>
-              <input
-                name="username"
-                type="text"
-                minlength="5"
-                maxlength="10"
-                required
-                placeholder="Ваше имя"
-              />
-            </label>
-            <label>
-               <input
-                name="password"
-                type="password"
-                minlength="5"
-                maxlength="10"
-                required
-                placeholder="Ваш email"
-              />
-            </label>
-           
+            <input
+              name="username"
+              type="text"
+              minlength="5"
+              maxlength="10"
+              required
+              placeholder="Ваше имя"
+            />
+            <input
+              name="password"
+              type="text"
+              required
+              placeholder="Ваш email"
+            />
+            <textarea
+              name="comment"
+              cols="30"
+              rows="6"
+              placeholder="Сообщение"
+            ></textarea>
+            
           </form>
-          <textarea name="comment" cols="40" rows="3"></textarea>
           <button class="btn">Отправить</button>
         </article>
       </section>
     </main>
     <footer>
-      <h3 class="footer-heading">Senicheva Elena</h3>
-      <p class="footer-text">(с) 2018. Все права защищены.</p>
-      <div class="footer-icons"><i class="fab fa-facebook-f"></i>
+      <span class="footer-heading">Senicheva Elena</span>
+      <span class="footer-text">(с) 2018. Все права защищены.</span>
+      <div class="footer-icons">
+        <i class="fab fa-facebook-f"></i>
         <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i></div>
+        <i class="fab fa-instagram"></i>
+      </div>
     </footer>
   </body>
 </html>
